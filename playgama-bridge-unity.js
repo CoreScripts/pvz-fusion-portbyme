@@ -140,9 +140,9 @@ function initializeBridge() {
                 createUnityInstance(
                     CANVAS,
                     {
-                        dataUrl: 'Build/PvzFM.data.unityweb',
-                        frameworkUrl: 'Build/PvzFM.framework.js.unityweb',
-                        codeUrl: 'Build/PvzFM.wasm.unityweb',
+                        dataUrl: 'Build/PvzFM.data',
+                        frameworkUrl: 'Build/PvzFM.framework.js',
+                        codeUrl: 'Build/PvzFM.wasm',
                         streamingAssetsUrl: 'StreamingAssets',
                         companyName: 'DefaultCompany',
                         productName: 'Plants Vs Zombies',
